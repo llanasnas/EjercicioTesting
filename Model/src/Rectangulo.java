@@ -13,7 +13,7 @@ public class Rectangulo implements Figuras{
     }
 
     public void setPerimetro() {
-        this.perimetro = (this.altura*2) + (this.altura*2);
+        this.perimetro = (this.altura*2) + (this.base*2);
     }
 
     public void setArea() {
